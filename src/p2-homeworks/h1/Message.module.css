@@ -1,6 +1,6 @@
 .HW1 {
     padding: 50px;
-    background: #EAC2C2;
+    background: #EACECE;
     margin: 6px;
 }
 .message.columns {
@@ -42,7 +42,7 @@ img {
     left: -40px;
     width: 40px;
     height: 40px;
-    background: #EAC2C2;
+    background: #EACECE;
     clip-path: ellipse(36% 50% at 64% 50%);
 }
 .right p {
