@@ -21,16 +21,13 @@ const Greeting: React.FC<GreetingPropsType> = (
         alert(`Hello ${name} !`)
     }
 
-    // const inputClass = (name === '') ? s.error : '' // need to fix with (?:)
-
     return (
         <div>
-            <SuperInputText onChangeText={setNameCallback} onEnter={onEnter}/>
+            <SuperInputText onChangeText={setNameCallback} onEnter={onEnter} error={error}/>
             <SuperButton onClick={addUser}>
                 add
             </SuperButton>
             <span>{totalUsers}</span><br/>
-            <span>{error}</span>
         </div>
     )
 }

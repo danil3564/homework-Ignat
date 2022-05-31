@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import s from "./Greeting.module.css"
 import GreetingContainer from './GreetingContainer'
 import {v1} from "uuid";
 
@@ -18,9 +19,9 @@ function HW3() {
     }
 
     return (
-        <div>
+        <div className={s.HW3}>
             <hr/>
-            homeworks 3
+            <h2>homeworks 3</h2>
 
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
@@ -28,7 +29,6 @@ function HW3() {
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeGreeting/>*/}
-            <hr/>
         </div>
     )
 }

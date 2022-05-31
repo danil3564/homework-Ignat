@@ -1,3 +1,13 @@
 .App {
-
+    background: #F6F6F6;
+}
+.main_title {
+    padding: 10px;
+    background: #ECECEC;
+    text-align: center;
+    font-size: 26px;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 400;
 }

@@ -1,3 +1,19 @@
-.someClass {
-
+.HW2 {
+    padding: 50px;
+    background: #EAE6C2;
+    margin: 6px;
+}
+.HW2 div div {
+    margin-bottom: 5px;
+}
+.HW2 div div:last-of-type {
+    margin-bottom: 12px;
+}
+.HW2 button {
+    padding: 3px 8px;
+    background: #5D90EA;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 8px;
 }

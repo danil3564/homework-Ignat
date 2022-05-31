@@ -1,10 +1,12 @@
 import React from 'react'
+import s from './HW5.module.css'
+import {NavLink} from "react-router-dom";
+import {PATH} from "./Pages";
 
 function Header() {
     return (
-        <div>
-            // add NavLinks
-
+        <div className={s.header}>
+            <NavLink to={PATH.PRE_JUNIOR}>pre-junior</NavLink>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import s from "./Affairs.module.css";
 import Affairs from './Affairs'
 
 // types
@@ -38,9 +39,9 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id))
 
     return (
-        <div>
+        <div className={s.HW2}>
             <hr/>
-            homeworks 2
+            <h2>homeworks 2</h2>
 
             {/*should work (должно работать)*/}
             <Affairs
@@ -52,7 +53,6 @@ function HW2() {
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
-            <hr/>
         </div>
     )
 }
