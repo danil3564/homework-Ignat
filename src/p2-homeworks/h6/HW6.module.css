@@ -1,0 +1,22 @@
+.HW6 {
+    padding: 50px;
+    background: #EACED1;
+    margin: 6px;
+}
+.HW6 button {
+    padding: 5px 15px;
+    background: #5D90EA;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 4px;
+    margin: 10px 8px 10px 0;
+    cursor: pointer;
+}
+.editable_span {
+    height: 26px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+}
