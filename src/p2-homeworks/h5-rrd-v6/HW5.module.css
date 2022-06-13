@@ -41,6 +41,10 @@
 .header a {
     font-size: 20px;
     color: #000;
+    margin-right: 12px;
+}
+.header a:last-of-type {
+    margin-right: 0;
 }
 .header a:hover {
     color: #FF3232;

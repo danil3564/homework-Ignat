@@ -47,7 +47,6 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     }
 
     const spanClassName = className
-    console.log(spanClassName)
 
     return (
         <>

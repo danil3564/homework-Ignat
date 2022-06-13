@@ -7,6 +7,7 @@ function Header() {
     return (
         <div className={s.header}>
             <NavLink to={PATH.PRE_JUNIOR}>pre-junior</NavLink>
+            <NavLink to={PATH.JUNIOR}>junior</NavLink>
         </div>
     )
 }
